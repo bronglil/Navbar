@@ -1,6 +1,6 @@
 #
 
-
+i will change navba simple page please do check above components are right or not
 this is just to show you if this a better way then i will move on with this if not please personaly Guide me
 
 
