@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+#
+
+
+this is just to show you if this a better way then i will move on with this if not please personaly Guide me
+
+
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
