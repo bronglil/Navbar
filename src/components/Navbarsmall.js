@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import {WhoWeAreData} from './WhoWeAreData';
-import {whatData, EnvironmentData,ECONOMICData,COMMUNITIESData, CULTUREData} from './WhatWeDodata';
-import {howData, ApprochData} from './HowWeWorkdata.js';
-import {EastAfrica, WestAfrica, MiddleEast, CentralAsia, SouthAsia, EastAsia, NorthAmerica, Europe} from './CountryData';
-import {MediaData, multimedia} from './MediaData';
-import {GetInvolvedData} from './GetInvolvedData';
-import {LangageData} from './LanguageData';
+import {WhoWeAreData} from './WhoWeAre/WhoWeAreData';
+import {whatData, EnvironmentData,ECONOMICData,COMMUNITIESData, CULTUREData} from './WhatWeDo/WhatWeDodata';
+import {howData, ApprochData} from './HowWeWork/HowWeWorkdata.js';
+import {EastAfricadata, WestAfricadata, MiddleEastdata, CentralAsiadata, SouthAsiadata, EastAsiadata, NorthAmericadata, Europedata} from './WhereWeWork/CountryData';
+import {MediaData, multimedia} from './Media/MediaData';
+import {GetInvolvedData} from './GetInvolved/GetInvolvedData';
+import {LangageData} from './Languages/LanguageData';
 
 
 
@@ -134,7 +134,7 @@ const Navbarsmall = (props) => {
                   <hr  className="hr"/>
 
                   {
-                    EastAfrica.map((data)=>(
+                    EastAfricadata.map((data)=>(
                       <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
                     ))
                   }
@@ -142,7 +142,7 @@ const Navbarsmall = (props) => {
                   <a  className="dropdown-item item9 ajax">WEST AFRICA</a>
                   <hr  className="hr"/>
                   {
-                    WestAfrica.map((data)=>(
+                    WestAfricadata.map((data)=>(
                     <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
                     ))
                   }
@@ -150,7 +150,7 @@ const Navbarsmall = (props) => {
                   <hr  className="hr"/>
 
                    {
-                     MiddleEast.map((data)=>(
+                     MiddleEastdata.map((data)=>(
                          <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
                      ))
                    }
@@ -158,7 +158,7 @@ const Navbarsmall = (props) => {
                   <a  className="dropdown-item item9 ajax">CENTRAL ARIA</a>
                   <hr  className="hr"/>
                   {
-                    CentralAsia.map((data)=>(
+                    CentralAsiadata.map((data)=>(
                         <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
                     ))
                   }
@@ -167,7 +167,7 @@ const Navbarsmall = (props) => {
                   <hr  className="hr"/>
 
                   {
-                    SouthAsia.map((data)=>(
+                    SouthAsiadata.map((data)=>(
                         <a  key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
                     ))
                   }
@@ -175,7 +175,7 @@ const Navbarsmall = (props) => {
                   <a  className="dropdown-item itme9 ajax">EAST ASIA</a>
                   <hr  className="hr"/>
                   {
-                    EastAsia.map((data)=>(
+                    EastAsiadata.map((data)=>(
                       <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
 
                     ))
@@ -185,7 +185,7 @@ const Navbarsmall = (props) => {
                   <hr  className="hr"/>
 
                   {
-                    NorthAmerica.map((data)=>(
+                    NorthAmericadata.map((data)=>(
                       <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
 
                     ))
@@ -194,7 +194,7 @@ const Navbarsmall = (props) => {
                   <a  className="dropdown-item itme9 ajax">EUROPE</a>
                   <hr  className="hr"/>
                   {
-                    Europe.map((data)=>(
+                    Europedata.map((data)=>(
                       <a key={data.id} className="dropdown-item item8 item16" href={data.path}>{data.info}</a>
 
                     ))

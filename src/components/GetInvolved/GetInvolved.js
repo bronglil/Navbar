@@ -1,5 +1,5 @@
 import React from 'react';
-import {GetInvolvedData} from "./GetInvolvedData";
+import Involved from "./Involved/Involved";
 
 
 const GetInvolved = () => {
@@ -10,13 +10,9 @@ const GetInvolved = () => {
       <div className="dropdown-content">
         <div className="list-container">
           <div className="col box9">
-            <ul>
-            {
-              GetInvolvedData.map((data)=>(
-                <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
-              ))
-            }
-            </ul>
+
+              <Involved/>
+
           </div>
         </div>
       </div>

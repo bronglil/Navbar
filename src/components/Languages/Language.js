@@ -1,5 +1,5 @@
 import React from 'react';
-import {LangageData} from './LanguageData.js'
+import LangMap from './LangMap/LangMap';
 
 const  Language = (props) => {
 
@@ -15,15 +15,9 @@ const  Language = (props) => {
       <div className="dropdown-content content1">
         <div className="list-container">
           <div className="col box8">
-            <ul>
 
-              {
-                LangageData.map((data, index) => (
-                <li key={data.id}><a className="dropdown-item" href="#"> {data.info} </a></li>
-             ))}
+            <LangMap/>
 
-
-            </ul>
           </div>
         </div>
       </div>

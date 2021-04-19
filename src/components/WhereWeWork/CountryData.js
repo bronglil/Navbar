@@ -1,4 +1,4 @@
-export const EastAfrica = [{
+export const EastAfricadata = [{
     id: 1,
     info: "Kenya",
     path: " "
@@ -31,7 +31,7 @@ export const EastAfrica = [{
 
 ]
 
-export const WestAfrica = [{
+export const WestAfricadata = [{
     id: 1,
     info: "Burkina Faso",
     path: " "
@@ -54,7 +54,7 @@ export const WestAfrica = [{
 
 ]
 
-export const MiddleEast = [{
+export const MiddleEastdata = [{
     id: 1,
     info: "Egypt",
     path: " "
@@ -73,7 +73,7 @@ export const MiddleEast = [{
 
 ]
 
-export const CentralAsia = [{
+export const CentralAsiadata = [{
     id: 1,
     info: "Afghanistan",
     path: " "
@@ -96,7 +96,7 @@ export const CentralAsia = [{
 
 ]
 
-export const SouthAsia = [{
+export const SouthAsiadata = [{
     id: 1,
     info: "Bangladesh",
     path: " "
@@ -114,7 +114,7 @@ export const SouthAsia = [{
 
 ]
 
-export const EastAsia = [{
+export const EastAsiadata = [{
     id: 1,
     info: "Malaysia",
     path: " "
@@ -127,7 +127,7 @@ export const EastAsia = [{
 
 ]
 
-export const NorthAmerica = [{
+export const NorthAmericadata = [{
     id: 1,
     info: "Canada",
     path: " "
@@ -140,7 +140,7 @@ export const NorthAmerica = [{
 
 ]
 
-export const Europe = [{
+export const Europedata = [{
     id: 1,
     info: "France",
     path: " "
