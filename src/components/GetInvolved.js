@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {GetInvolvedData} from "./GetInvolvedData";
 
 
 const GetInvolved = () => {
@@ -11,12 +11,11 @@ const GetInvolved = () => {
         <div className="list-container">
           <div className="col box9">
             <ul>
-              <li><a className="dropdown-item" href="#">Careers</a></li>
-              <li><a className="dropdown-item" href="#">Donate</a></li>
-              <li><a className="dropdown-item" href="#">Events</a></li>
-              <li><a className="dropdown-item" href="#">Partner With Us</a></li>
-              <li><a className="dropdown-item" href="#">International Scholarship Programmer</a></li>
-              <li><a className="dropdown-item" href="#">Contact Us</a></li>
+            {
+              GetInvolvedData.map((data)=>(
+                <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
+              ))
+            }
             </ul>
           </div>
         </div>

@@ -1,48 +1,8 @@
 import React from 'react';
+import {MediaData, multimedia} from './MediaData'
 
 const Media = () => {
-  const MediaData = [
-    {
-      id: 1,
-      info: "Our Stories"
-    },
-    {
-       id: 2,
-        info: "Project Spotlights"
-    },
-    {
-      id:3,
-      info: "Speeches"
-    },
-    {
-      id:4,
-        info: "Press Releases"
-    },
-    {
-      id:5,
-      info: "Event Summaries"
-    },
-    ,
-    {
-      id:6,
-        info: "AKDN In The Media"
-    },
-    {
-      id:7,
-      info: "COVID-19 Responses"
-    },
-  ]
 
-  const multimedia = [
-    {
-      id: 1,
-      info: "Photographs"
-    },
-    {
-      id: 2,
-      info: "Videos"
-    }
-  ]
   return(
 
     <li className="nav-item dropdown">
@@ -58,7 +18,7 @@ const Media = () => {
                 <hr className="hr"/>
               </li>
               {MediaData.map((data)=>(
-                  <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                  <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
               ))}
 
             </ul>
@@ -71,7 +31,7 @@ const Media = () => {
               </li>
               {
                 multimedia.map((data) => (
-                  <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                  <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
                 ))
               }
 

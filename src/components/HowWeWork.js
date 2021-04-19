@@ -18,7 +18,7 @@ const HowWeWork = () => {
               </li>
               {
                 howData.map((data)=>(
-                    <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                    <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
                 ))
               }
 
@@ -32,7 +32,7 @@ const HowWeWork = () => {
               </li>
               {
                 ApprochData.map((data)=>(
-                    <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                    <li key={data.id}><a className="dropdown-item" href={data.path}>{data.info}</a></li>
                 ))
               }
 

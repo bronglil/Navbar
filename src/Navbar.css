@@ -201,7 +201,7 @@ li.nav-item1.show>.dropdown-toggle1:before{
   color: rgb(255 255 255 / 100%) !important;
 }
 .my-1.mx-2.close {
-  color: #ffffff !important;
+  color: black !important;
   opacity: 1;
 }
 
@@ -221,7 +221,7 @@ li.nav-item1.show>.dropdown-toggle1:before{
   padding-top: 10px;
 }
 .item16 {
-  padding-bottom: 20px;
+  padding-bottom: 16px;
 }
 .icon5 {
   font-weight: 500;

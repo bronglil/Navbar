@@ -1,60 +1,73 @@
 export const EastAfrica = [{
     id: 1,
-    info: "Kenya"
+    info: "Kenya",
+    path: " "
   },
   {
     id: 2,
-    info: "Madagascar"
+    info: "Madagascar",
+    path: " "
   },
   {
     id: 3,
-    info: "Mozambique"
+    info: "Mozambique",
+    path: " "
   },
   {
     id: 4,
-    info: "Rwanda"
+    info: "Rwanda",
+    path: " "
   },
   {
     id: 5,
-    info: "Tanzania"
+    info: "Tanzania",
+    path: " "
   },
   {
     id: 6,
-    info: "Uganda"
+    info: "Uganda",
+    path: " "
   },
 
 ]
 
 export const WestAfrica = [{
     id: 1,
-    info: "Burkina Faso"
+    info: "Burkina Faso",
+    path: " "
   },
   {
     id: 2,
-    info: "Côte D'Ivoire"
+    info: "Côte D'Ivoire",
+    path: " "
   },
   {
     id: 3,
-    info: "Mali"
+    info: "Mali",
+    path: " "
   },
   {
     id: 4,
-    info: "Senegal"
+    info: "Senegal",
+    path: " "
   },
 
 ]
 
 export const MiddleEast = [{
     id: 1,
-    info: "Egypt"
+    info: "Egypt",
+    path: " "
   },
   {
     id: 2,
-    info: "Sysia"
+    info: "Sysia",
+    path: " "
   },
   {
     id: 3,
-    info: "United Arab Emirates"
+    info: "United Arab Emirates",
+    path: " "
   },
 
 
@@ -62,91 +75,110 @@ export const MiddleEast = [{
 
 export const CentralAsia = [{
     id: 1,
-    info: "Afghanistan"
+    info: "Afghanistan",
+    path: " "
   },
   {
     id: 2,
-    info: "Kazakhstan"
+    info: "Kazakhstan",
+    path: " "
   },
   {
     id: 3,
-    info: "Kyrgyz Republic"
+    info: "Kyrgyz Republic",
+    path: " "
   },
   {
     id: 4,
-    info: "Tajikistan"
+    info: "Tajikistan",
+    path: " "
   },
 
 ]
 
 export const SouthAsia = [{
     id: 1,
-    info: "Bangladesh"
+    info: "Bangladesh",
+    path: " "
   },
   {
     id: 2,
-    info: "India"
+    info: "India",
+    path: " "
   },
   {
     id: 3,
-    info: "Pakistan"
+    info: "Pakistan",
+    path: " "
   },
 
 ]
 
 export const EastAsia = [{
     id: 1,
-    info: "Malaysia"
+    info: "Malaysia",
+    path: " "
   },
   {
     id: 2,
-    info: "Singapore"
+    info: "Singapore",
+    path: " "
   },
 
 ]
 
 export const NorthAmerica = [{
     id: 1,
-    info: "Canada"
+    info: "Canada",
+    path: " "
   },
   {
     id: 2,
-    info: "United States Of America"
+    info: "United States Of America",
+    path: " "
   },
 
 ]
 
 export const Europe = [{
     id: 1,
-    info: "France"
+    info: "France",
+    path: " "
   },
   {
     id: 2,
-    info: "Germany"
+    info: "Germany",
+    path: " "
   },
   {
     id: 3,
-    info: "Norway"
+    info: "Norway",
+    path: "/"
   },
   {
     id: 4,
-    info: "Portugal"
+    info: "Portugal",
+    path: "/"
   },
   {
     id: 5,
-    info: "Switzerland"
+    info: "Switzerland",
+    path: "/"
   },
   {
     id: 6,
-    info: "United Kingdom"
+    info: "United Kingdom",
+    path: "/"
   },
   {
     id: 1,
-    info: "France"
+    info: "France",
+    path: "/"
   },
   {
     id: 2,
-    info: "Germany"
+    info: "Germany",
+    path: "/"
   },
 
 ]

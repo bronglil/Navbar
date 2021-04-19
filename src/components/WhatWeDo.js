@@ -20,7 +20,7 @@ const WhatWeDo = () => {
                 </li>
                 {
                   whatData.map((data)=>(
-                    <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                    <li key={data.id}><a className="dropdown-item" href="#">{data.info}</a></li>
                 ))
                 }
                 </ul>
@@ -32,7 +32,7 @@ const WhatWeDo = () => {
                 </li>
                 {
                   EnvironmentData.map((data)=>(
-                      <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                      <li key={data.id}><a className="dropdown-item" href="#">{data.info}</a></li>
                   ))
                 }
 
@@ -46,7 +46,7 @@ const WhatWeDo = () => {
                 </li>
                 {
                   ECONOMICData.map((data) =>(
-                    <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                    <li key={data.id}><a className="dropdown-item" href="#">{data.info}</a></li>
                   ))
                 }
 
@@ -59,7 +59,7 @@ const WhatWeDo = () => {
                 </li>
                 {
                   COMMUNITIESData.map((data)=>(
-                      <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                      <li key={data.id}><a className="dropdown-item" href="#">{data.info}</a></li>
                   ))
                 }
                 </ul>
@@ -72,7 +72,7 @@ const WhatWeDo = () => {
                 </li>
                 {
                   CULTUREData.map((data)=>(
-                    <li><a className="dropdown-item" href="#">{data.info}</a></li>
+                    <li key={data.id}><a className="dropdown-item" href="#">{data.info}</a></li>
                   ))
                 }
 
